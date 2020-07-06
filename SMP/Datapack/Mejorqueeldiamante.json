@@ -1,0 +1,31 @@
+{
+    "display": 
+    {
+       "icon": 
+       {
+           "item" "minecraft:netherite_sword"
+       },
+       "title": "¿Mejor que el diamante?", 
+       "description": "consigue la espada de netherite",
+       "frame": "normal",
+       "show_toast": true,
+       "announce_to_chat": true 
+    },
+    "parents": "zafirosadvancements:zafiros/unanuevaaventura",
+    "rewars": {
+        "experience": 0
+    },
+    "criterie": {
+        "item": {
+            "trigger": "minecraft:inventory_changed",   
+            "conditions": {
+                [
+                    "item": "netherite sword",
+                    "count": {
+                        "min": 1
+                    }
+                ]
+            }
+        }
+    }
+}
